@@ -11,13 +11,21 @@ pool:
 
 steps:
 - task: UseDotNet@2
+  displayName: 'Install .NET Core 3.1 Preview'
   inputs:
     packageType: 'sdk'
     version: '3.1.x'
     includePreviewVersions: true
 - task: DotNetCoreCLI@2
+  displayName: 'Build Birds App'
   inputs:
     command: 'build'
     projects: '$(System.DefaultWorkingDirectory)/birds_blazor/birds_blazor.csproj'
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(System.DefaultWorkingDirectory)/birds_blazor'
+    artifact: 'birds_blazor_app'
+    publishLocation: 'pipeline'
 
 
