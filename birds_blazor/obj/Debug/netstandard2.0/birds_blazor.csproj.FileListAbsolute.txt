@@ -129,3 +129,5 @@ C:\Users\acampb\documents\MyRepos\birds\birds_blazor\obj\Debug\netstandard2.0\bl
 C:\Users\acampb\documents\MyRepos\birds\birds_blazor\obj\Debug\netstandard2.0\blazor\linker\birds_blazor.pdb
 C:\Users\acampb\documents\MyRepos\birds\birds_blazor\obj\Debug\netstandard2.0\blazor\inputs.bootjson.cache
 C:\Users\acampb\documents\MyRepos\birds\birds_blazor\obj\Debug\netstandard2.0\blazor\blazor.boot.json
+C:\Users\acampb\documents\MyRepos\birds\birds_blazor\obj\Debug\netstandard2.0\RazorDeclaration\Pages\Users.razor.g.cs
+C:\Users\acampb\documents\MyRepos\birds\birds_blazor\obj\Debug\netstandard2.0\Razor\Pages\Users.razor.g.cs
